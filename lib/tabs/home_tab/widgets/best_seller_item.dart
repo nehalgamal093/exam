@@ -1,6 +1,5 @@
 import 'package:exam/theme/color_manager.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_rating_stars/flutter_rating_stars.dart';
 
 class BestSellerItem extends StatelessWidget {
   const BestSellerItem({super.key});
@@ -32,11 +31,12 @@ class BestSellerItem extends StatelessWidget {
                 'Laurie Forest',
                 style: Theme.of(context).textTheme.titleSmall,
               ),
-        SizedBox(height: 30,),
+              const SizedBox(
+                height: 30,
+              ),
               const Row(
-
                 children: [
-                  Icon(Icons.star, color: Color(0xffcffF77A55)),
+                  Icon(Icons.star, color: Color(0xFFcfff77a55)),
                   SizedBox(
                     width: 8,
                   ),
@@ -54,12 +54,14 @@ class BestSellerItem extends StatelessWidget {
                   ),
                   Icon(Icons.star_border, color: Color(0xffcffF77A55)),
                 ],
-
               ),
-              SizedBox(
+              const SizedBox(
                 height: 8,
               ),
-              Text(' 1,000+ Listeners',  style: Theme.of(context).textTheme.titleSmall,)
+              Text(
+                ' 1,000+ Listeners',
+                style: Theme.of(context).textTheme.titleSmall,
+              )
             ],
           )
         ],
