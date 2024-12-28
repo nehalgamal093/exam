@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-class MovieItem extends StatelessWidget {
+class BookItem extends StatelessWidget {
   final String image;
-  const MovieItem({super.key, required this.image});
+  const BookItem({super.key, required this.image});
 
   @override
   Widget build(BuildContext context) {

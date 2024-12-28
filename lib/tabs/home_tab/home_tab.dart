@@ -1,5 +1,5 @@
 import 'package:exam/tabs/home_tab/widgets/best_seller_horizontal.dart';
-import 'package:exam/tabs/home_tab/widgets/movie_horizontal_list.dart';
+import 'package:exam/tabs/home_tab/widgets/book_horizontal_list.dart';
 import 'package:exam/tabs/home_tab/widgets/tab_bar_categories.dart';
 import 'package:exam/tabs/home_tab/widgets/title_bar.dart';
 import 'package:flutter/material.dart';

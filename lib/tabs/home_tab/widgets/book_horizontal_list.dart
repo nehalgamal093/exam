@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'movie_item.dart';
+
+import 'book_item.dart';
+
 
 class MovieHorizontalList extends StatelessWidget {
   const MovieHorizontalList({super.key});
@@ -9,7 +11,7 @@ class MovieHorizontalList extends StatelessWidget {
     return ListView.separated(
         scrollDirection: Axis.horizontal,
         itemBuilder: (context, index) {
-          return MovieItem(
+          return BookItem(
             image: movieCovers[index],
           );
         },
