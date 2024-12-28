@@ -33,7 +33,7 @@ class HomeTab extends StatelessWidget {
           const SizedBox(height: 16),
           Container(
               padding: const EdgeInsets.only(right: 24, left: 24),
-              height: size.height * .15,
+              height: size.height * .20,
               child: const BestSellerHorizontal())
         ],
       ),
